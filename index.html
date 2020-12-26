@@ -5,15 +5,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        button {
+            font-size: larger;
+            font-weight: bold;
+        }
+        a:link { color: rgb(247, 150, 137); text-decoration: none; }
+      a:visited { color: rgb(248, 168, 168); text-decoration: none; }
+      a:hover { color:  rgb(255, 255, 255); text-decoration: none; }
+      a:active { color: white;  }
+
+        #yes-button {
+            color: rgb(250, 108, 73);
+            margin-right: 50%;
+        }
+
+        #no-button {
+            padding: 5px;
+            color: lightslategray;
+            font-size: 1px;
+        }
+
+        #yes-button:hover {
+            color: rgb(255, 255, 255);
+            box-shadow: rgba(255, 0, 0, 0.7) 0 80px 0px 2px inset;
+        }
+
+        #no-button:hover {
+            color: rgb(255, 255, 255);
+            box-shadow: lightskyblue 0 80px 0px 2px inset;
+        }
+
+        .rounded {
+            border-radius: 10px;
+        }
+
+        /* default button style */
+        .btn {
+            position: relative;
+            border: 0;
+            padding: 25px 45px;
+            display: inline-block;
+            text-align: center;
+            color: white;
+
+        }
+
+        .btn:active {
+            top: 1px;
+
+        }
+
+        .btn.red {
+            box-shadow: 0px 2.5px #e4adad;
+        }
+
+        .btn.red:active {
+            box-shadow: 0 0 #74a3b0;
+            background-color: #709CA8;
+        }
+
+        .btn.blue {
+            box-shadow: 0px 2.5px #b8e9f1;
+        }
+
+        .btn.blue:active {
+            box-shadow: 0 0 #74a3b0;
+            background-color: #709CA8;
+        }
+
+        .name {
+            padding: 10px 18px;
+            background-color: navajowhite;
+            color: mediumslateblue;
+            font-size: 20px;
+            font-weight: bolder;
+            border-radius: 25px;
+        }
+    </style>
 </head>
 
 <body>
     <h1>허태정은반성해라</h1>
-    <h2>허태정은 손을 들고 순순히 따라라</h2>
-    <h3>싫다</h3> 
-    <h4>타자치기 귀찮은데</h4>
-    <h5>짜증나게하지마</h5>
+    <h1>허태정은 전현선을 좋아한다. </h1>
+    <div>
+        <button id="yes-button" class="btn red rounded">
+            <a href="yes.html">yes</a>
+        </button>
+        <button id="no-button" class="btn blue rounded">no</button>
+    </div>
+
+    <h2>허씨킬</h2>
+    <h2>내말을 잘들으면 자다가도 떡이나온다</h2>
+    <h2>가는말이 고우면 오는말이 곱다던데</h2>
+    <h3>항상 명심하도록</h3>
+    <h4>열정강사 허태정</h4>
+    <h5>말조심을 하자 말말말</h5>
     <h6>말조심을 하자</h6>
+    나는 <span class="name">"jun현선"</span>입니다.
 </body>
 
 </html>
